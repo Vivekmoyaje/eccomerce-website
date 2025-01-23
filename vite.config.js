@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: "build", // This makes sure Vite outputs to the 'build' folder
   },
 
-  base: "/E-Shop",
+  base: "/eccomerce-website",
   plugins: [react()],
 });
