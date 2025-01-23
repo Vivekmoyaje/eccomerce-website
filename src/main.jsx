@@ -10,10 +10,7 @@ import "./index.css";
 createRoot(document.getElementById("root")).render(
   <>
     <CartProvider>
-      <BrowserRouter
-        basename="/eccomerce-website
-"
-      >
+      <BrowserRouter basename="/eccomerce-website">
         <App />
         <ToastContainer />
       </BrowserRouter>
